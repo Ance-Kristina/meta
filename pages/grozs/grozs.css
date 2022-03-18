@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* ------------------- body
+galvene
+saturs                          <-(padding-bottom: __px;)
+kajene                          <-(galvenes un satura padding izmērs)
+---------------------- */
+/* -------------------------------------------------------------------------------------------
+-------------------------------------------------- GALVENE -----------------------------------
+---------------------------------------------------------------------------------------------- */
+.galvene{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#logo a{
+    width: 90vw;
+    color: #a8a89f;
+    font-size: 70px;
+    padding: 0px 20px;
+}
+
+.navigacijas-div{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigacija > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.navigacija > ul > li > a{
+    text-decoration: none;
+    margin: 20px;
+    color: #999992;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------
+--------------------------------------------------- SATURS -----------------------------------
+---------------------------------------------------------------------------------------------- */
+#saturs{
+    width: 100%;
+    max-width: 100vw;
+    padding-bottom: 60px; /* kājenes augstums */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#virsraksts{
+    width: 100%;
+    color: #65665e;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.pasutijuma-forma{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solis{
+    height: 40px;
+    width: 40px;
+    background-color: #9dc035;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 5px 0px;
+}
+.solis-text{
+    color: #9dc035;
+    font-size: 18px;
+}
+
+#pakalpojumu-saraksts-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.pakalpojums-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+.checkbox_text{
+    font-size: 16px;
+    color: #65665e;
+    margin: 0px 0px 0px 10px;
+}
+.cena{
+    color: #65665e;
+    margin: 0px 0px 0px 20px;
+    font-size: 15px;
+}
+
+
+.lauks1{
+    height: 26px;
+    width: 480px;
+    border: 1px solid #9dc035;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.lauks2{
+    height: 40px;
+    width: 480px;
+    border: 1px solid #9dc035;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.balts_input{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+#poga-pasutit{
+    height: 40px;
+    width: 160px;
+    border-radius: 80px 20px 80px 20px;
+    background-color: #9dc035;
+    border: 1px solid #9dc035;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px 0px 10px 0px;
+}
+#poga-pasutit:hover {
+    background-color: #ffffff;
+    color:  #9dc035;
+}
+#poga-pasutit:active {
+    background-color: #9dc035;
+    color: #ffffff;
+}
+
+
+
+.balts_input{
+    color: #ffffff;
+}
+
+/* -------------------------------------------------------------------------------------------
+--------------------------------------------------- KĀJENE -----------------------------------
+---------------------------------------------------------------------------------------------- */
+.kajene{
+    width: 100%;
+    max-width: 100vw;
+    height: 60px; 
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+ }
+
+
+/* ------------- Instagram ikona ------------- */
+#instagram-ikona{
+    width: 40px;
+    height: 40px;
+    border: solid 3px #65665e; 
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insta-tuks{
+    width: 5px;
+}
+#insta-aplis{
+    width: 20px;
+    height: 20px;
+    border: solid 3px #65665e; 
+    border-radius: 10px;
+}
+#insta-mini-aplis-div{
+    align-items: flex-start;
+}
+#insta-mini-aplis{
+    width: 4px;
+    height: 4px;
+    background-color: #65665e; 
+    border-radius: 4px;
+    margin: 0px 1px 20px 0px;
+}
+
+
+.kajene p{
+    color: #65665e; 
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------
+--------------------------------------------------   G2   ------------------------------------
+---------------------------------------------------------------------------------------------- */
+.virsraksts-g2{
+    color: #9dc035;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 10px 20px 10px;
+}
+.teksts-g2{
+    color: #65665e; 
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+
+/* --------------------------------------------------------------------------------------------
+--------------------------------------------------  MEDIA  ------------------------------------
+----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 400px){
+    #logo a{
+        font-size: 40px;
+    }
+    .navigacija > ul > li > a{
+        margin: 10px;
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .pasutijuma-forma{
+        width: 90%;
+    }
+    /* G1 */
+    .lauks1{
+        width: 100%;
+    }
+    .lauks2{
+        width: 100%;
+    }
+
+    /* G2 */
+    .virsraksts-g2{
+        font-size: 20px;
+    }
+    .teksts-g2{
+        font-size: 16px;
+    }
+}

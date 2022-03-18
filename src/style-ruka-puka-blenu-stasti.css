@@ -1,0 +1,1160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ------------------------------------------ GALVENE ------------------------------------------ */
+#galvene-puukis{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+#logo-puukis{
+    margin: 10px 0px 0px 10px;
+    align-items: flex-start;
+}
+#logo-puukis p a{
+    text-decoration: none;
+    color: #999992;
+    font-size: 25px;
+}
+#logo-puukis p a:hover{
+    color: #9dc035;
+}
+#virsraksts-puukis{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #65665e; 
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------  SPĒLES LAUKS  ---------------------------------------- */
+/* ------------------------------------------------------------------------------------------------ */
+#speeleS-lauks{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lauks-gajienam{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lauku-kopa-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nummurs-S{
+    font-size: 40px;
+    color: #999992;
+    text-align: center;
+}
+.nummurs-M{
+    font-size: 45px;
+    color: #999992;
+    text-align: center;
+}
+.nummurs-L{
+    font-size: 55px;
+    color: #999992;
+    text-align: center;
+}
+
+.nosaukums-S{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nosaukums-M{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nosaukums-L{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nosaukums-L-5{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.nosaukums-L-8{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 0px 15px 0px;
+}
+.nosaukums-L-9{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 0px 0px 0px;
+}
+
+/* -----------------------------------------  suuna 1  -------- */
+#paugurs-suuna-1{
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 60px 0px 0px 0px;
+}
+
+/* --------------------------------------------------------------------------  1  -------- */
+#paugurs-1{
+    width: 260px;
+    height: 200px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 130px 130px 0px 0px;
+    border: none;
+}
+#paugurs-1:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-1:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  2  -------- */
+#paugurs-2{
+    width: 160px;
+    height: 130px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 60px 130px 0px 0px;
+    border: none;
+}
+#paugurs-2:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-2:active{
+    background-color: #ffc035;
+}
+
+/* ----------------------------------------------------------------------  ogas  -------- */
+/* -------------------------------  oga 1  -------- */
+#oga-1{
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 15px 0px;
+    background-color: #a374b6; 
+    border-radius: 20px;
+}
+
+/* -------------------------------  3  -------- */
+#oga-liela{
+    width: 140px;
+    height: 140px;
+    margin: 0px 0px 10px 0px;
+    background-color: #a374b6; 
+    border: none;
+    border-radius: 70px;
+}
+#oga-liela:hover{
+    border: solid 8px #ffc035;
+}
+#oga-liela:active{
+    background-color: #ffc035;
+}
+/* -------------------------------  oga 2  -------- */
+#oga-2{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 10px 0px;
+    background-color: #a374b6; 
+    border-radius: 10px;
+}
+/* -------------------------------  oga 3  -------- */
+#oga-3{
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 40px 0px;
+    background-color: #a374b6; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------------------------------------  4  -------- */
+#paugurs-4{
+    width: 200px;
+    height: 120px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 160px 80px 0px 0px;
+    border: none;
+}
+#paugurs-4:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-4:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  5  -------- */
+#paugurs-5{
+    width: 160px;
+    height: 150px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 80px 80px 0px 0px;
+    border: none;
+}
+#paugurs-5:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-5:active{
+    background-color: #ffc035;
+}
+
+/* -------------------------------  suuna 2  -------- */
+#paugurs-suuna-2{
+    width: 60px;
+    height: 70px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 0px 70px 0px 0px;
+}
+
+/* --------------------------------------------------------------------------  6  -------- */
+#paugurs-6{
+    width: 260px;
+    height: 160px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 160px 130px 0px 0px;
+    border: none;
+}
+#paugurs-6:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-6:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  7  -------- */
+#paugurs-7{
+    width: 160px;
+    height: 100px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 60px 100px 0px 0px;
+    border: none;
+}
+#paugurs-7:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-7:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  8  -------- */
+#paugurs-8{
+    width: 160px;
+    height: 80px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 80px 60px 0px 0px;
+    border: none;
+}
+#paugurs-8:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-8:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  9  -------- */
+#paugurs-9{
+    width: 160px;
+    height: 140px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 60px 100px 0px 0px;
+    border: none;
+}
+#paugurs-9:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-9:active{
+    background-color: #ffc035;
+}
+
+#oga-4{
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 20px 0px;
+    background-color: #a374b6; 
+    border-radius: 15px;
+}
+
+/* --------------------------------------------------------------------------  10  -------- */
+/* -------------------------------  suuna 3  -------- */
+#paugurs-suuna-3{
+    width: 70px;
+    height: 60px;
+    margin: 0px 0px 30px 40px;
+    background-color: #789719;
+    border-radius: 60px 0px 0px 0px;
+}
+#paugurs-10{
+    width: 160px;
+    height: 160px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 100px 60px 0px 0px;
+    border: none;
+}
+#paugurs-10:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-10:active{
+    background-color: #ffc035;
+}
+/* -------------------------------  suuna 4  -------- */
+#paugurs-suuna-4{
+    width: 40px;
+    height: 80px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 0px 40px 0px 0px;
+}
+
+/* --------------------------------------------------------------------------  11  -------- */
+#paugurs-11{
+    width: 230px;
+    height: 170px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 140px 90px 0px 0px;
+    border: none;
+}
+#paugurs-11:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-11:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  12  -------- */
+#paugurs-12{
+    width: 200px;
+    height: 140px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 80px 120px 0px 0px;
+    border: none;
+}
+#paugurs-12:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-12:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  13  -------- */
+/* -------------------------------  oga 5  -------- */
+#oga-5{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 40px 0px;
+    background-color: #a374b6; 
+    border-radius: 10px;
+}
+/* -------------------------------  suuna 5  -------- */
+#paugurs-suuna-5{
+    width: 60px;
+    height: 50px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 60px 0px 0px 0px;
+}
+#paugurs-13{
+    width: 240px;
+    height: 130px;
+    margin: 0px 0px 30px 0px;
+    background-color: #789719;
+    border-radius: 90px 150px 0px 0px;
+    border: none;
+}
+#paugurs-13:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-13:active{
+    background-color: #ffc035;
+}
+
+/* --------------------------------------------------------------------------  14  -------- */
+#paugurs-14{
+    width: 260px;
+    height: 180px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 160px 100px 0px 0px;
+    border: none;
+}
+#paugurs-14:hover{
+    border: solid 8px #ffc035;
+}
+#paugurs-14:active{
+    background-color: #ffc035;
+}
+/* -------------------------------  suuna 6  -------- */
+#paugurs-suuna-6{
+    width: 80px;
+    height: 85px;
+    margin: 0px 0px 30px 0px;
+    background-color: #9dc035;
+    border-radius: 0px 80px 0px 0px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+
+#kajene-puukis{
+    margin: 40px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#insta-un-hashtagi{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#instagram-logo{
+    width: 40px;
+    height: 40px;
+    border: solid 3px #65665e;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insta-tuks{
+    width: 5px;
+}
+#insta-aplis{
+    width: 20px;
+    height: 20px;
+    border: solid 3px #65665e;
+    border-radius: 10px;
+}
+#insta-mini-aplis-div{
+    align-items: flex-start;
+}
+#insta-mini-aplis{
+    width: 4px;
+    height: 4px;
+    background-color: #65665e;
+    border-radius: 4px;
+    margin: 0px 1px 20px 0px;
+}
+
+
+#insta-un-hashtagi p{
+    color: #65665e;
+    font-size: 20px;
+    padding: 0px 00px 0px 20px;
+}
+
+
+#logo-puukis-kajene{
+    width: 50%;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+#logo-puukis-kajene p a{
+    color: #65665e;
+    font-size: 25px;
+    text-decoration: none;
+}
+#logo-puukis-kajene p a:hover{
+    color: #9dc035;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------  MODAL  ---------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+.gajiena-nr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.gajiena-nr-pec-kartas-malejie-div{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.gajiena-nr-pec-kartas{
+    width: 60%;
+    color: #65665e;
+    font-size: 26px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* aizvert-krusts */
+.aivert-krusts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 30px 0px 0px;
+}
+.aivert-krusts-labais{
+    width: 10px;
+    height: 50px;
+    background-color: #ffc035;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: +2;
+}
+.aivert-krusts-kreisai{
+    width: 10px;
+    height: 50px;
+    background-color: #ffc035;
+    transform: rotate(135deg);
+    z-index: +3;
+}
+
+
+.stasts{
+    color: #30312d; 
+    font-size: 22px;
+    width: 75%;
+    text-align: center;
+}
+/* Līnijas */
+.uzdevuma-veids{
+    color: #9dc035;
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+.zala-linija{
+    width: 75%;
+    height: 5px;
+    background-color: #9dc035;
+    margin: 0px 0px 20px 0px
+}
+.atstarpe-20px{
+    width: 90%;
+    height: 20px;
+}
+
+.uzdevums{
+    color: #30312d; 
+    font-size: 22px;
+    width: 75%;
+    text-align: center;
+}
+
+/* POGAS */
+.poga-ieeja{
+    height: 40px;
+    width: 160px;
+    background-color: #9dc035;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px; /* ieejai */
+}
+.poga-ieeja:hover{
+    background-color: #789719;
+}
+
+.poga-liela{
+    width: 360px;
+    height: 40px;
+    background-color: #9dc035;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
+.poga-liela:hover{
+    background-color: #789719;
+}
+
+/* NEREDZAMS */
+.neredzams{
+    visibility: hidden;
+}
+
+/* -------------------------------  ieeja  -------- */
+#modal-ieeja-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-ieeja-div a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#modal-ieeja{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#modal-ieeja-varzuballe{
+    color: #9dc035;
+    font-size: 28px;
+    margin: 10px 0px 10px 0px
+}
+#modal-ieeja-varzuballe:hover{
+    color: #789719;
+}
+
+.modal-ieeja-info{
+    color: #65665e; 
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#modal-ieeja-biletes-iegade{
+    color: #ffc035;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#modal-ieeja-biletes-iegade:hover{
+    color: #e6a721;
+}
+
+#modal-ieeja-ludzu-ievadiet{
+    color: #9dc035; 
+    font-size: 24px;
+    margin-top: 10px;
+}
+#biletes_kods{
+    height: 40px;
+    width: 160px;
+    border: solid 2px #9dc035;
+    color: #65665e; 
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#nepareizs-kods{
+    color: #ffc035;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+#mazs-ekrans{
+    color: #ffc035;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    visibility: hidden;
+}
+
+/* -------------------------------  Nr 1  -------- */
+#modal-nr1-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-nr1{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#senu-div{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sene{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.senes-bilde{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 1px #999992;
+    margin: 20px;
+}
+.senes-bilde:hover{
+    border: solid 4px #ffc035;
+}
+.senes-nosaukums{
+    color: #65665e;
+    font-size: 24px;
+    text-align: center;
+}
+.edama-indiga{
+    color: #65665e;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+
+/* -------------------------------  Nr 2  -------- */
+#modal-2-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-2{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*---  Nr 2_2  ---*/
+#modal-2-2-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-2-2{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 3  -------- */
+#modal-3-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-3{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 4  -------- */
+#modal-4-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-4{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 5  -------- */
+#modal-5-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-5{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 6  -------- */
+#modal-6-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-6{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 7  -------- */
+#modal-7-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-7{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 8  -------- */
+#modal-8-div {
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-8{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 9  -------- */
+#modal-9-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-9{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 10  -------- */
+#modal-10-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-10{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 11  -------- */
+#modal-11-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-11{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 12  -------- */
+#modal-12-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-12{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* -------------------------------  Nr 13  -------- */
+#modal-13-1-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-13-1{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#modal-13-2-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-13-2{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#attels-13-gajienam{
+    width: 50%;
+    border-radius: 30px;
+    margin: 5px 0px 10px 0px;
+}
+
+#modal-13-3-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-13-3{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* -------------------------------  Nr 14  -------- */
+#modal-14-div{
+    position: fixed;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal-14{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/*--------------------------------- @media ---------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+    .modal-ieeja-info{ 
+        font-size: 16px;
+        margin-top: 0px;
+        margin: 10px 5px 0px 5px;
+    }
+    #modal-ieeja-biletes-iegade{
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #modal-ieeja-ludzu-ievadiet{
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .poga-liela{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .stasts{
+        font-size: 18px;
+        width: 75%;
+    }
+    .uzdevums{
+        font-size: 18px;
+        width: 75%;
+    }
+
+    .senes-bilde{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    .senes-nosaukums{
+        font-size: 16px;
+    }
+    .edama-indiga{
+        font-size: 16px;
+    }
+
+    #attels-13-gajienam{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .stasts{
+        font-size: 16px;
+        width: 75%;
+    }
+    .uzdevums{
+        font-size: 16px;
+        width: 75%;
+    }
+
+    .senes-bilde{
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    #mazs-ekrans{
+        visibility: visible;
+    }
+
+}

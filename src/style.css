@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* ---------------------------------------  GALVENĀ  --------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+
+.galvene{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#logo a{
+    width: 90vw;
+    color: #a8a89f;
+    font-size: 70px;
+    padding: 0px 20px;
+}
+
+.navigacijas-div{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigacija > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.navigacija > ul > li > a{
+    text-decoration: none;
+    margin: 20px;
+    color: #999992;
+    font-size: 20px;
+}
+
+/* --------------------------------------------  VĒDERS  -------------------------------------------- */
+.veders{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.veders-lauks-column-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.veders-lauks-column-down a{
+    text-decoration: none;
+}
+/* -------------------------- Zaļā lapa M ------- */
+#zala-lapa-M{
+    width: 280px;
+    height: 280px;
+    background-color: #9dc035;
+    border-radius: 30px 140px;
+    margin: 20px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.zala-lapa-M-1{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0px 10px 20px 0px;
+    text-align: center;
+}
+.zala-lapa-M-2{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0px 0px 5px 70px;
+}
+#zala-lapa-M h1{
+    margin-bottom: 20px;
+}
+
+/* -------------------------- Apraksts un zaļā lapa S------- */
+.rindkopa-1{
+    color: #65665e;
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.rindkopa-2{
+    color: #65665e;
+    font-size: 18px;
+    margin: 40px 20px 0px 0px;
+    text-align: right;
+}
+
+
+#zala-lapa-S{
+    width: 220px;
+    height: 140px;
+    border: solid 5px #9dc035;
+    border-radius: 110px 30px;
+    margin: 70px 0px 40px 10px;
+    display: flex;
+    flex-direction: column;
+}
+#zala-lapa-S a{
+    text-decoration: none;
+}
+#zala-lapa-S h1{
+    color: #9dc035;
+    font-size: 20px;
+    margin: 20px 0px 10px 60px;
+}
+#zala-lapa-S p{
+    color: #65665e; 
+    font-size: 20px;
+    margin: 0px 30px 0px 0px;
+    text-align: center;
+}
+
+/* ---------------------- Orandžā lapa ------- */
+#orandza-lapa{
+    width: 200px;
+    height: 200px;
+    background-color: #ffc035;
+    border-radius: 30px 100px 30px 100px;
+    margin: 0px 10px 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#orandza-lapa p{
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+}
+
+/* ---------------------- Zaļā lapa ------- */
+#zala-lapa{
+    width: 420px;
+    height: 420px;
+    background-color: #9dc035;
+    border-radius: 210px 30px 210px 30px;
+    margin: 0px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* #zala-lapa a{
+    text-decoration: none;
+} */
+#zala-lapa-apraksts{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 20px 0px 30px 120px;
+}
+#zala-lapa-nosaukums{
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0px 0px 40px 100px;
+}
+/* Baltā lapa */
+#balta-lapa{
+    width: 200px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 100px 30px 100px 30px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#balta-lapa:hover{
+    border: solid 4px #d7dacf;
+} 
+.balta-lapa-text{
+    color: #65665e; 
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+
+
+/* --------------------------------------------  KĀJENE  -------------------------------------------- */
+#kajene-puukis{
+    width: 95%;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ------------- Instagram ikona ------------- */
+#instagram-ikona{
+    width: 40px;
+    height: 40px;
+    border: solid 3px #65665e; 
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insta-tuks{
+    width: 5px;
+}
+#insta-aplis{
+    width: 20px;
+    height: 20px;
+    border: solid 3px #65665e; 
+    border-radius: 10px;
+}
+#insta-mini-aplis-div{
+    align-items: flex-start;
+}
+#insta-mini-aplis{
+    width: 4px;
+    height: 4px;
+    background-color: #65665e; 
+    border-radius: 4px;
+    margin: 0px 1px 20px 0px;
+}
+
+
+#kajene-puukis p{
+    color: #65665e; 
+    font-size: 25px;
+    padding: 0px 0px 0px 20px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* ----------------------------------------  IZKLAIDE --------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
+.izklaides{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.izklaizu-lauki{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px 20px 40px 20px;
+}
+.izklaizu-lauku-virsraksti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.izklaides-virsraksts{
+    color: #65665e;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+.izklaides-apraksts{
+    color: #65665e;
+    font-size: 16px;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+/* ------------- Viktorīnas ------------- */
+.viktorina{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+.viktorina-lapa{
+    width: 180px;
+    height: 140px;
+    border: solid 8px #ffc035;
+    border-radius: 30px 90px 30px 90px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viktorina-lapa:hover{
+    border: solid 8px #e6a721;
+}
+.viktorina-lapa p{
+    color: #ffffff;
+    color: #65665e; ;
+    font-size: 22px;
+}
+.viktorina-apraksts{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.viktorina-apraksts p{
+    color: #65665e;
+    font-size: 16px;
+}
+.viktorina-apraksts h3{
+    color: #ffc035;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.viktorina-apraksts h3:hover{
+    color: #e6a721;
+}
+
+/* ------------- Izklaižu programmas ------------- */
+.izklaizu-programma{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+.izklaizu-programma-lapa{
+    width: 180px;
+    height: 140px;
+    background-color: #9dc035;
+    border-radius: 30px 90px 30px 90px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.izklaizu-programma-lapa:hover{
+    background-color: #789719;
+}
+.izklaizu-programma-lapa p{
+    color: #ffffff;
+    font-size: 22px;
+}
+.izklaizu-programma-apraksts{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.izklaizu-programma-apraksts-text{
+    color: #65665e;
+    font-size: 16px;
+}
+.h3-ar-linku{
+    color: #9dc035;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.h3-ar-linku:hover{
+    color: #789719;
+}
+.h3-bez-linka{
+    color: #9dc035;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.piedavajums-beidzies{
+    color: #ffc035;
+    font-size: 16px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ----------------------------------------  VEIKALS  ---------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+#katalogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.kataloga-sadalas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.prece-lapa{
+    width: 240px;
+    height: 160px;
+    background-color: #ffc035;
+    /* border: solid 5px #9dc035; */
+    border-radius: 30px 100px 30px 100px;
+    margin: 0px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prece-lapa p{
+    color: #ffffff;
+    font-size: 40px;
+}
+#pasutijuma-veidlapa{
+    width: 500px;
+    height: 420px;
+    /* background-color: #9dc035; */
+    border: solid 8px #9dc035;
+    border-radius: 250px 30px 250px 30px;
+    margin: 0px 0px 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pasutijuma-veidlapa p{
+    color: #65665e;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* ---------------------------------------  KONTAKTI  --------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
+.kontakti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sveiciens p{
+   color:  #65665e; 
+   font-size: 20px;
+   text-align: center;
+   margin: 16px 0px 0px 0px;
+}
+#sveiciens-paldies p{
+    color: #9dc035;
+    font-size: 30px;
+    margin: 120px 0px 306px 0px;
+}
+
+.kontaktu_forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#epasta_lauks {
+    margin-top: 30px;
+    height: 40px;
+    width: 550px;
+    border: solid 1px #9dc035;
+    padding-left: 10px;
+}
+#varda_lauks {
+    margin-top: 10px;
+    height: 40px;
+    width: 550px;
+    border: solid 1px #9dc035;
+    padding-left: 10px;
+}
+#zinas_lauks {
+    margin-top: 10px;
+    height: 130px;
+    width: 550px;
+    border: solid 1px #9dc035;
+    padding-left: 10px;
+}
+#poga_kontaktu_formai {
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border: solid 1px #9dc035;
+    background-color: #9dc035;
+    border-radius: 50px 100px 50px 100px;
+    color: #412a35;
+}
+#poga_kontaktu_formai:hover {
+    background-color: white;
+}
+#poga_kontaktu_formai:active {
+    background-color: #9dc035;
+}
+
+#obligatie_laukumi {
+    align-items: center;
+    color: #9dc035;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------  @media  --------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 750px) {
+    #logo a{
+        font-size: 40px;
+    }
+    .navigacija > ul > li > a{
+        margin: 10px;
+        font-size: 16px;
+    }
+
+/* ------------------ index ------------------ */
+
+    .veders{
+        max-width: 100vw;
+    }
+    .veders-lauks-column-down{
+        max-width: 100vw;
+    }
+    #zala-lapa-M{
+        width: 99%;
+        height: 280px;
+        border-radius: 30px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .rindkopa-1{
+        font-size: 20px;
+    }
+    .rindkopa-2{
+        font-size: 16px;
+    }
+
+    #zala-lapa-S{
+        width: 99%;
+        height: auto;
+        border-radius: 30px;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #zala-lapa-S h1{
+        font-size: 16px;
+        margin: 10px 0px 0px 0px;
+    }
+    #zala-lapa-S p{
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #orandza-lapa{
+        width: 250px;
+        height: auto;
+        border-radius: 30px;
+        margin: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #orandza-lapa p{
+        font-size: 14px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    #zala-lapa{
+        width: 99%;
+        height: auto;
+        border-radius: 30px;
+        margin: 0px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #ipvg{
+        font-size: 18px;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    #rpbs{
+        font-size: 24px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    /* Baltā lapa */
+    #balta-lapa{
+        width: 200px;
+        height: 120px;
+        border-radius: 100px 30px 100px 30px;
+        margin: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #ieejas-koda-iegade{
+        color: #65665e; 
+        font-size: 26px;
+        margin: 0px 0px 10px 20px;
+        text-align: center;
+    }
+    #bilesu-paradize{
+        color: #65665e; 
+        font-size: 16px;
+        margin: 0px 50px 0px 0px
+    }
+
+    /* ------------------ izklaide ------------------ */
+    .izklaizu-lauki{
+        margin: 20px 0px 20px 0px;
+    }
+    .viktorina{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .viktorina-lapa{
+        width: 170px;
+        height: 80px;
+        border-radius: 30px;
+        margin: 0px 10px 5px 0px;
+    }
+    .viktorina-apraksts{
+        width: 140px;
+    }
+
+    .izklaizu-programma{
+        flex-direction: column;
+        margin: 10px 0px 10px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .izklaizu-programma-lapa{
+        width: 240px;
+        height: 90px;
+        border-radius: 30px;
+        margin: 0px 0px 10px 0px;
+    }
+    .izklaizu-programma-apraksts{
+        width: 90%;
+    }
+
+/* ------------------ veikals ------------------ */
+    .prece-lapa{
+        width: 240px;
+        height: auto;
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+    .prece-lapa p{
+        font-size: 30px;
+        margin: 5px;
+    }
+    #pasutijuma-veidlapa{
+        width: 100%;
+        height: 440px;
+        border-radius: 30px;
+        margin: 0px 0px 20px 0px;
+    }
+    #pasutijuma-veidlapa p{
+        font-size: 22px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    
+/* ------------------ kontakti ------------------ */
+    .kontaktu_forma {
+        width: 90vw;
+    }
+    #epasta_lauks {
+        width: 100%;
+        padding-left: 0px;
+    }
+    #varda_lauks {
+        width: 100%;
+        border: solid 1px #9dc035;
+        padding-left: 0px;
+    }
+    #zinas_lauks {
+        height: 180px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #sveiciens-paldies{
+        width: 100vw;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sveiciens-paldies p{
+        font-size: 25px;
+    }
+} 

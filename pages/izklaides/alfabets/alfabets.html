@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="alfabets.css" />
+    <title>Varžu balle</title>
+    <meta name="description" content="Alfabēta BINGO">
+    <link rel="icon" href="../../../img/Favicon.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C5V734WG4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JV39GK1GE6');
+    </script>
+</head>
+<body>
+    <div id="galvene">
+        <a href="../../../index.html"><p class="logo">varzuballe.lv</p></a>
+    </div>
+    <div id="saturs">
+        <p class="nosaukums1">ALFABĒTA BINGO</p>
+        <p class="nosaukums2">(palīgs burtiņmācībā)</p>
+        <div id="bingo">
+            <div id="bingo-burta-div">
+                <p id="bingo-burts" class="bingo-burts">A*</p>
+            </div>
+            <div id="bingo-pogas-div">
+                <div id="bingo-poga" onclick="bingo_poga()"><p>Jauns burts</p></div>
+            </div>
+        </div>
+        <div id="bingo-noteikumu-div">
+            <p class="bingo-noteikumi-text">Katrs spēlētājs izvēlās vienu BINGO lapu.</p>
+            <a href="../../../img/Alfabēta-BINGO.pdf" download="BINGO_spēļu_lapas.pdf" target="_blank">
+                <p class="bingo-noteikumi-text-pdf">Lejupielādēt PDF failu "BINGO spēļu lapas"</p></a>
+            <p class="bingo-noteikumi-text">Spēle tiek sākta nospiežot pogu "Jauns burts". Esošais A* netiek ņemts vērā. 
+                Spēlētāji meklē savās lapās uz ekrāna redzamos burtus. Ja tie sakrīt, ar košu rakstāmo pārvelk kontūras. 
+                Uzvar tas kurš pirmais aizpilda horizontālu līniju. Iepriekš vienojoties, var izdomāt savus noteikumus. 
+                Piemēram, spēlēt kārtās, krāt punktus, papildus punkti par vertikālu līniju u.c.</p>
+        </div>
+    </div>
+    <div id="kajene">
+        <div class="kajene-soc-tikl-div">
+            <a href="https://www.instagram.com/varzuballe/" target="_blank">
+                <div id="instagram-logo">
+                    <div id="insta-tuks"></div>
+                    <div id="insta-aplis"></div>
+                    <div id="insta-mini-aplis-div">
+                        <div id="insta-mini-aplis"></div>
+                    </div>
+                </div>
+            </a>
+            <p>@varzuballe</p>
+            <p>#alfabētaBingo</p>
+        </div>
+        <div class="kajene-logo-div">
+            <a href="../../../index.html"><p class="logo">varzuballe.lv</p></a>
+        </div>
+    </div>
+    <script src="alfabets.js"></script>
+</body>
+</html>

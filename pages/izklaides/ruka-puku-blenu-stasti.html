@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../src/style-ruka-puka-blenu-stasti.css" />
+    <link rel="icon" href="../../img/Favicon.png">
+    <title>Rūķa Pūķa blēņu stāsti</title>
+    <meta name="description" content="Izklaides programma visai ģimenei. Stāsts par rūķi Pūķi.">
+</head>
+<body>
+    <div id="galvene-puukis">
+        <div id="logo-puukis"><p><a href="../../index.html">varzuballe.lv</a></p></div>
+        <p id="virsraksts-puukis">MEŽA RŪĶA BLĒŅU STĀSTI</p>
+    </div>
+    <div id="speeleS-lauks">
+<!-- 1 -->
+        <!-- suuna 1 -->
+        <div class="lauks-gajienam">
+            <div id="paugurs-suuna-1"></div>
+        </div>
+        <!-- 1 -->
+        <div class="lauks-gajienam">
+            <div><p class="nummurs-M">1</p></div>
+            <button id="paugurs-1" onclick="nr1()"><p class="nosaukums-L">SĀKUMS</p></button>
+        </div>
+<!-- 2 -->
+        <div class="lauks-gajienam">
+            <div><p class="nummurs-L">2</p></div>
+            <button id="paugurs-2" onclick="nr2()"><p class="nosaukums-M">Beciņa<br>sēnes</p></button>
+        </div>
+<!-- lauku kopa ogas -->
+        <div class="lauku-kopa-row">
+            <!-- oga 1 -->
+            <div class="lauks-gajienam">
+                <div id="oga-1"></div>
+            </div>
+            <!-- 3 --> 
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-S">3</p></div>
+                <button id="oga-liela" onclick="nr3()"><p class="nosaukums-M">Lillā, lillā</p></button>
+            </div> 
+            <!-- oga 2 un 3 -->
+            <div class="lauks-gajienam">
+                <div id="oga-2"></div>
+                <div id="oga-3"></div>
+            </div>
+        </div>
+<!-- lauku kopa 4un5 -->
+        <div class="lauku-kopa-row">
+            <!-- 4 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-L">4</p></div>
+                <button id="paugurs-4" onclick="nr4()"><p class="nosaukums-M">Darbi un<br>nedarbi</p></button>
+            </div>
+            <!-- 5 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-L">5</p></div>
+                <button id="paugurs-5" onclick="nr5()"><p class="nosaukums-L-5">...</p></button>
+            </div>
+            <!-- suuna 2 -->
+            <div class="lauks-gajienam">
+                <div id="paugurs-suuna-2"></div>
+            </div>
+        </div>
+<!-- 6 -->
+        <div class="lauku-kopa-row">
+            <!-- oga 4 -->
+            <div class="lauks-gajienam">
+                <div id="oga-4"></div>
+            </div>
+            <!-- 6 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-L">6</p></div>
+                <button id="paugurs-6" onclick="nr6()"><p class="nosaukums-M">Danco tā,<br> ka rīb!</p></button>
+            </div>
+        </div>
+<!-- 7 -->
+        <div class="lauks-gajienam">
+            <div><p class="nummurs-L">7</p></div>
+            <button id="paugurs-7" onclick="nr7()"><p class="nosaukums-L">...</p></button>
+        </div> 
+<!-- 8 -->
+        <div class="lauks-gajienam">
+            <div><p class="nummurs-S">8</p></div>
+            <button id="paugurs-8" onclick="nr8()"><p class="nosaukums-L-8">...</p></button>
+        </div>
+<!-- 9 -->
+        <div class="lauks-gajienam">
+            <div><p class="nummurs-L">9</p></div>
+            <button id="paugurs-9" onclick="nr9()"><p class="nosaukums-L-9">...</p></button>
+        </div>
+<!-- 10 -->
+        <div class="lauku-kopa-row">
+            <!-- suuna 3 -->
+            <div class="lauks-gajienam">
+                <div id="paugurs-suuna-3"></div>
+            </div>
+            <!-- 10 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-S">10</p></div>
+                <button id="paugurs-10" onclick="nr10()"><p class="nosaukums-M">Albums</p></button>
+            </div>
+            <!-- suuna 4 -->
+            <div class="lauks-gajienam">
+                <div id="paugurs-suuna-4"></div>
+            </div>
+        </div>
+ <!-- 11 un 12 -->
+        <div class="lauku-kopa-row">       
+            <!-- 11 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-S">11</p></div>
+                <button id="paugurs-11" onclick="nr11()"><p class="nosaukums-S">Briežu<br>"DĀVANAS"</p></button>
+            </div>
+            <!-- 12 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-L">12</p></div>
+                <button id="paugurs-12" onclick="nr12()"><p class="nosaukums-L">...</p></button>
+            </div>
+        </div>
+<!-- 13 -->
+        <div class="lauku-kopa-row">
+            <!-- oga -->
+            <div class="lauks-gajienam">
+                <div id="oga-1"></div>
+            </div>
+            <!-- oga 5 -->
+            <div class="lauks-gajienam">
+                <div id="oga-5"></div>
+            </div>
+            <!-- suuna 5 -->
+            <div class="lauks-gajienam">
+                <div id="paugurs-suuna-5"></div>
+            </div>
+            <!-- 13 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-L">13</p></div>
+                <button id="paugurs-13" onclick="nr13()"><p class="nosaukums-M">Daudz laimes!</p></button>
+            </div>
+        </div>
+<!-- 14 -->  
+        <div class="lauku-kopa-row">
+            <!-- 14 -->
+            <div class="lauks-gajienam">
+                <div><p class="nummurs-S">14</p></div>
+                <button id="paugurs-14" onclick="nr14()"><p class="nosaukums-M">Kopābūšana</p></button>
+            </div>
+            <!-- suuna 6 -->
+            <div class="lauks-gajienam">
+                <div id="paugurs-suuna-6"></div>
+            </div>
+        </div>
+    </div>
+<!--Spēles lauka beigas-->
+    <div id="kajene-puukis">
+        <div id="insta-un-hashtagi">
+            <a href="https://www.instagram.com/varzuballe/" target="_blank">
+                <div id="instagram-logo">
+                    <div id="insta-tuks"></div>
+                    <div id="insta-aplis"></div>
+                    <div id="insta-mini-aplis-div">
+                        <div id="insta-mini-aplis"></div>
+                    </div>
+                </div>
+            </a>
+            <p>@varzuballe</p>
+            <p>#RūķisPūķis</p>
+        </div>
+        <div id="logo-puukis-kajene"><p><a href="../../index.html">varzuballe.lv</a></p></div>
+    </div>
+
+
+
+<!----------------------------->
+<!----------- MODAL ----------->
+<!----------------------------->
+<!-- ieeja -->
+    <div id="modal-ieeja-div"> <!-- noņemt neredzamību -->
+        <div id="modal-ieeja">
+            <a href="../../index.html"><p id="modal-ieeja-varzuballe">varzuballe.lv</p></a>
+            <p class="modal-ieeja-info">MEŽA RŪĶA BLĒŅU STĀSTI</p>
+            <P class="modal-ieeja-info">
+                Jums būs nepieciešams:<br>
+                katram dalībniekam pierakstu lapa un rakstāmais + viena papildus lapa<br>
+                dators vai SMART TV<br>
+                viens labs lasītājs (iesakām lasīt ar izteiksmi, iejusties lomā)
+            </P>
+            <P class="modal-ieeja-info">
+                Pa vienam un pēc kārtas atveriet spēles lauciņus.<br>
+                Kopīgiem spēkiem izpildiet uzdevumus un atminiet mīklas.<br>
+                Lai jautra un sirsnīga kopābūšana!
+            </P>
+            <a href="https://www.bilesuparadize.lv/lv/event/107421" target="_blank">
+                <p id="modal-ieeja-biletes-iegade">Biļetes (piekļuves koda) iegāde<br>Līdz 15.janvārim</p></a>
+            <p id="modal-ieeja-ludzu-ievadiet">Lūdzu ievadiet piekļuves kodu</p>
+            <input type="text" id="biletes_kods">
+            <button class="poga-ieeja" onclick="ieeja()">Sākt</button>
+            <div id="nepareizs-kods" class="neredzams">Nepareizs kods, mēģiniet vēlreiz</div>
+            <div id="mazs-ekrans">
+                Ierīces, ko pašlaik lietojat, ekrāns ir pārāk mazs!<br>
+                Lūdzu izmantojiet datoru vai SMART TV.
+            </div>
+        </div>
+    </div>
+<!-- SĀKUMS -->
+    <div id="modal-nr1-div" class="neredzams">
+        <div id="modal-nr1">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>SĀKUMS</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_sakums()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Reiz sen senos laikos dziļa meža pašā vidū dzīvoja rūķis vārdā Pūķis.<br>Viņš bija jaunākais no trim brāļiem. 
+                Abi vecākie Sūniņš un Beciņš bija čakli un paklausīgi, bet Pūķim šīs īpašības bija gājušas secen.<br>Viņš katrā 
+                meža stūrī bija pastrādājis kādu blēņu. Ja mežs spētu runāt, tam būtu daudzi, jo daudzi stāsti par nebēdnīgo 
+                rūķēnu.<br>Vai gribat dzirdēt, ko viņš reiz izdarīja ar brāļa salasītajām sēnēm?
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">Vispirms pārbaudīsim vai jūs pazīstat sēnes.<br>
+                Kā tās sauc un kuru labāk neēst? Ja nezini, klikšķini uz attēliem.</p>
+            <div id="senu-div">
+                <div class="sene">
+                    <img src="../../img/baravika.jpg" alt="baravika" class="senes-bilde" onclick="baravika()">
+                    <div id="baravika" class="neredzams">
+                        <p class="senes-nosaukums">Baravika</p>
+                        <p class="edama-indiga">(ēdama)</p>
+                    </div>
+                </div>
+                <div class="sene">
+                    <img src="../../img/gailene.jpg" alt="gailene" class="senes-bilde" onclick="gailene()">
+                    <div id="gailene" class="neredzams">
+                        <p class="senes-nosaukums">Gailene</p>
+                        <p class="edama-indiga">(ēdama)</p>
+                    </div>
+                </div>
+                <div class="sene">
+                    <img src="../../img/musmire.jpg" alt="mušmire" class="senes-bilde" onclick="mushmire()">
+                    <div id="mushmire" class="neredzams">
+                        <p class="senes-nosaukums">Mušmire</p>
+                        <p class="edama-indiga">(indīga)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 2 -->
+    <div id="modal-2-div" class="neredzams">
+        <div id="modal-2">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>2</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_2()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Vidējais brālis Beciņš bija īstens sēņu pazinējs.<br>
+                No viņa noslēpties nevarēja neviena micīte. Kādu dienu lasot baravikas viņš ievēroja, 
+                ka sēņu cepurītēm ir dīvaini balti punktiņi.<br>
+                Vai tās kāds ir nokrāsojis? 
+                Jo dziļāk mežā viņš gāja, jo vairāk sēnes bija izdekorētas ar šiem savādajiem krāsu pleķiem.<br>
+                Kas to būtu darījis? Pūķis? Vai tiešām mazais brālis būtu uz ko tādu spējīgs?<br>
+                Savilcis pieri grumbās viņš devās pie Pūķa.
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Iedomājieties sevi rūķa Pūķa vietā.<br> 
+                Kāpēc viņš nokrāsoja baravikas? Katram jāmin vismaz viens variants.
+            </p>
+            <button class="poga-liela" onclick="pogs_2()">Kas notika patiesībā...</button>
+        </div>
+    </div>
+    <div id="modal-2-2-div" class="neredzams">
+        <div id="modal-2">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>Kas notika patiesībā...</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_2_2()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Rūķis Pūķis, domājot par meža zvēriem, tās mēģināja nokrāsot kā mušmires.<br>
+                Četrkājainajiem draugiem ir labi deguni, viņi pēc smaržas atpazītu sēnes. Bet brālis Beciņš noteikti apjuktu
+                un mājās nestu mazāk baravikas.<br>Rūķēns cerēja, ka arī mamma būs priecīga, jo nebūs tik daudz 
+                jāvāra sēņu burciņas ziemai. Nu redzi! Pūķis gribēja tikai labu!<br>Bet blēņa paliek plēņa!<br> 
+                Tāpēc vakarā ar ūdens spainīti rokās mazgāja katru apzīmēto sēnes micīti.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 3 -->
+    <div id="modal-3-div" class="neredzams">
+        <div id="modal-3">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>3</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_3()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Vai zini, kas mūsu palaidnīgajam draugam garšoja visvairāk?<br>
+                Melleņu ievārījums, ko mamma katru gadu vārīja no vissaldākajām un lielākajām ogām. 
+                Tas sanāca koši lillā. Tik koši kā vislillīgākā krāsa pasaulē.<br>
+                Rūķis Pūķis bieži sapņoja kā peld gardajā ievārījumā un viņam visapkārt ir veselas melleņu ogas, 
+                kuras, atverot muti, pašas ieslīt uz kārā zoba.<br>Tie bija pasakaini un ļoti lillā sapņi!
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Uzspēlēsim spēli "VISLIELĀKAIS KĀRUMS"<br>
+                Katrs klusējot uz lapas uzraksta vai ātri uzzīmē kādu garšīgu kārumu.<br>Tikai ne saldējumu 
+                un ne šokolādi :D<br>
+                Un pēc kārtas tikai ar kustībām un bez skaņas parāda pārējiem, kuriem ir 
+                jāatmin, kas tas ir par gardumu. (Mēmais šovs)
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 4 -->
+    <div id="modal-4-div" class="neredzams">
+        <div id="modal-4">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>4</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_4()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Katru rītu rūķu mamma un rūķu paps saviem dēlēniem deva uzdevumus,<br>kas dienas laikā jāpaveic.<br>
+                Arī šis rīts nebija izņēmums, bet, protams, kad veicamo darbu teica mazajam rakarim, 
+                rūķis Pūķis domās jau bija pie vakara izklaidēm un no teiktā vien atcerējās,<br>
+                to ka kaut kas jānomazgā. Bet kas?
+            </p>
+            <div class="uzdevuma-veids">Mīkla</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Palīdzēsim viņam atcerēties. Uzminiet mīklu!<br>
+                (katram jānosauc vismaz viens atbildes variants)<br><br>
+                Četras kājas, viena cepure.
+            </p>
+            <button class="poga-liela" onclick="pogs_4()">Pareizā atbilde</button>
+            <p id="atbilde-4" class="uzdevums neredzams">Galds. Ak jā, bija jānomazgā virtuves galds!</p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 5 -->
+    <div id="modal-5-div" class="neredzams">
+        <div id="modal-5">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>5</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_5()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Priecīgs atcerējies savu uzdevumu, viņš sāka skaitīt lietas,<br>kas nepieciešamas, lai paveiktu darbu.<br> 
+                ŪDENS! Bet uz aku bija tik tālu jāiet. Varbūt derētu te pat no peļķes? Ai, tad mamma dusmosies! 
+                Pie sevis nodomāja rūķēns un žigli aizsoļoja uz aku.<br>
+                Kad ūdens bija atnests, viņš lūkojās rinķī un meklēja sūkli, bet vienīgais ko viņa ačteles 
+                redzēja bija brāļa Sūniņa šorti, kas žāvējās pie krāsns.<br>
+                Kā jūs domājat tā ir laba doma? Rūķis Pūķis saprata, ka dabūs no brāļa pa mizu, tāpēc sāka meklēt 
+                sūkli. Ko drīz vien atrada pie izlietnes.
+            </p>
+            <div class="uzdevuma-veids">Mīkla</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Bet kas vēl nepieciešams? Atminiet mīklu!<br> 
+                Jo vairāk berž, jo vairāk puto.
+            </p>
+            <button class="poga-liela" onclick="pogs_5()">Pareizā atbilde</button>
+            <p id="atbilde-5" class="uzdevums neredzams">Ziepes</p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 6 -->
+    <div id="modal-6-div" class="neredzams"> 
+        <div id="modal-6">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>6</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_6()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Dienas otrajā pusē rūķiem bija brīvais laiks, kas parasti tika veltīts rotaļām mežā.<br>
+                Sūniņš draiski skraidīja ar vāverēm un lasīja riekstus.<br>
+                Beciņš kāpelēja pa egļu zariem un meklēja skaistākos čiekurus.<br> 
+                Bet mūsu Pūķis... viņam kā vienmēr sanāca kāda blēņa.
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Visi pieceļās kājās un paliek stāvot.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 7 -->
+    <div id="modal-7-div" class="neredzams"> 
+        <div id="modal-7">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>7</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_7()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Šoreiz rūķēns par saviem rotaļu draugiem 
+                izvēlējās skudras, kuras čakli darbojās pie savas mājas. Vērojot uzcītīgās strādnieces, viņam prātā 
+                ienāca pavisam nevainīga doma.<br>Jāpacienā skudriņas ar melleņu ievārījumu.<br>
+                Mamma vienmēr ir teikusi, ka kārtīgi rūķu bērni ir pelnījuši vissaldākās ogas. Un pūžņa iemītnieces 
+                par savu uzcītību pavisam noteikti ir pelnījušas kādu kārumu.
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Izratojaties, tā lai katrs no katra ir vismaz 1m attālumā.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 8 -->
+    <div id="modal-8-div" class="neredzams"> 
+        <div id="modal-8">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>8</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_8()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Tad nu rūķis Pūķis lielu skudru baru ar visām skujām iestūma savā cepurē, 
+                aizsēja tās galu un palēgdamies devās mājās.<br>
+                Virtuvē uz plīts dzesējās svaigi vārīts melleņu ievārījums. Viņš atsēja cepures galu un izlaida meža čaklītes cienāties
+                ar visu laiku labāko gardumu. Protams, arī pats ķērās klāt un, kad puncis bija piestūķēts un vaigi lillā, 
+                aizmiga pie siltās krāsns.<br>
+                Pa to laiku skudras devās iepazīt virtuvi un par savām jaunajām mājām 
+                izvēlējās brāļu un papa bikšeles, kas žāvējās turpat blakus. 
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Katrs klusējot iedomājas vienu meža zvēru. Kuššš!!! 
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 9 -->
+    <div id="modal-9-div" class="neredzams"> 
+        <div id="modal-9">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>9</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_9()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Saldi aizmigušo rūķi Pūķi no miega pamodināja skaļi saucieni un kāju dipoņa. Atvēris acis viņš 
+                aiz priekiem sasita plaukstas, jo ģimene bija uzrīkojusi balli.<br> 
+                Nu vismaz tā viņam likās! Ak Tu mazais palaidniek!<br>
+                Viņš pat nenojauta, ka brāļi un paps nevis danco, 
+                bet locās, jo svaigi uzvilktās bikšeles bija pilnas ar skudrām. Un mamma ar saķertu galvu skraida pa vidu, 
+                mēģinot saprast, kas viņas puišiem noticis.<br>
+                Rūķi Pūķi, tagad Tu zināsi, ka skudras mājās nest nedrīkst!
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Izvēlaties vienu dziesmu, kuru nodziedāt vienam vai visiem kopā.<br>
+                Atdarinot iepriekš izvēlētos zvērus, jādejo pie dziesmas. Var izdot dzīvnieku skaņas. 
+                Visiem jāatmin, kas katrs ir.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 10 -->
+    <div id="modal-10-div" class="neredzams"> 
+        <div id="modal-10">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>10</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_10()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Lai kādi nedarbi pa dienu sastrādāti, vakarus rūķu ģimene sirsnīgi pavadīja kopā.<br>
+                Šis laiks bija īpaši vērtīgs!
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Attēlojot iepriekšējos dzīvniekus, uztaisiet kopbildi.<br>
+                Katrs kopā pavadītais laiks ir zvērīgi labs!
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 11 -->
+    <div id="modal-11-div" class="neredzams"> 
+        <div id="modal-11">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>11</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_11()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Pirms iepazīstamies ar rūķa Pūķa nākamo nedarbu, stabiņā uz leju uzrakstiet 8 mežainus 
+                īpašības vādus.<br>
+                1.<br>
+                2.<br>
+                3.<br>
+                utt.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 12 -->
+    <div id="modal-12-div" class="neredzams"> 
+        <div id="modal-12">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>12</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_12()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Trūkstošajās vietās ievietojiet savus īpašības vārdus, neaizmirstiet locīt galotnes.<br><br>
+                Kādā saulainā dienā __1__ Pūķis soļoja uz tālāko meža stūri. Rūķēns bija dusmīgs. Piepūtis vaigus, 
+                viņš sita __2__ kājeles pret zemi. Pat kokā sēdošās vāveres izbrīnītas saskatījās.<br>
+                "Kas tad Pūķim noticis?"<br>
+                Mūsu palaidniekam __3__ brāļi atņēmuši cepuri. Izpūrušās matu cirtas krita acīs, kājas
+                ķērās aiz zara un rūķis ar degunu iekrita __4__ sūnās.<br>Aaaaaa! Nu dusmas bija līdz ausīm!<br>
+                Pie visa 
+                vainīgi ir Sūniņš un Beciņš. Jo, kad rūķis Pūķis un brāļi spēlēja ķēriņus ar meža zaķiem, viņam 
+                palika karsti un __5__ cepuri pakarināja zarā. Bet __6__ vējš to nopūta zemē. Un tā iekrita 
+                tieši __7__ briežu spirās. Nu tā traki smirdēja.<br>Plāns bija to izmazgāt ar melleņu ievārījumu, 
+                jo cik tas būtu pasakaini valkāt cepuri, kura smaržo pēc visu laiku labākā kāruma. Bet brāļiem šī 
+                doma nepatika. Un tie to izmazgāja ar __8__ ziepēm.<br>
+                Ko tie brāļi vispār saprot no labām idejām? Pukojās Pūķis.
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- 13 -->
+    <div id="modal-13-1-div" class="neredzams"> 
+        <div id="modal-13-1">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>13</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_13_1()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Bija pienākusi Sūniņa dzimšanas diena. Visi sagādājuši pārdomātas un ļoti noderīgas 
+                dāvanas no meža veltēm.<br>Arī rūķis Pūķis izgrebis koka karoti. Bet lai jautrāka pasniegšana, viņš
+                izdomāja savu dāvanu paslēpt un uzrīkot dāvanas meklēšanas spēli.<br>
+                Bet pagaidi! Ja paslēptu visas dāvanas, būtu vēl interesantāk.<br>
+                Lieki teikt, ka pārējie nebija priecīgi par šo ideju. 
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                Palīdziet jubilāram atrast visas noslēptās dāvanas.
+            </p>
+            <button class="poga-liela" onclick="pogs_13()">Palīdzēt!</button>
+        </div>
+    </div>
+    <div id="modal-13-2-div" class="neredzams"> 
+        <div id="modal-13-2">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>13</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_13_2()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="uzdevums">
+                Palīdziet jubilāram atrast visas noslēptās dāvanas:<br>
+                koka karoti, foto rāmi, sveci "9" formā un kūku
+            </p>
+            <img id="attels-13-gajienam" src="../../img/img-nr13.png" alt="Paslēptās dāvanas">
+            <button class="poga-liela" onclick="pogs_13_2()">Atbilde</button>
+        </div>
+    </div>
+    <div id="modal-13-3-div" class="neredzams"> 
+        <div id="modal-13-3">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>13</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_13_3()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="uzdevums">
+                Te nu ir viena mūsu blēņa!<br>
+                Rūķis kūku nemaz nepaslēpa, to bildē neatradīsiet.
+            </p>
+            <img id="attels-13-gajienam" src="../../img/img-nr13-atbilde.png" alt="Paslēptās dāvanas">
+        </div>
+    </div>
+<!-- 14 -->
+    <div id="modal-14-div" class="neredzams"> 
+        <div id="modal-14">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>14</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_14()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+                Rūķis Pūķis ir mazs palaidnieks, bet visas blēņas tiek veiktas ar labiem nodomiem.<br>
+                Kā nu sanāk, spriediet paši.<br>
+                Bet sirsniņa viņam liela un plaša. Ja varētu, viņš samīļotu katru egles skujiņu, 
+                katru zāles stiebriņu, katru zemē nokritušo čiekuru, katru... katru.<br><br>
+                Samīļojiet viens otru! No visas, visas SIRDS!<br>
+                Paldies pa kopābūšanu!
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+<!-- Modal beigas -->
+<!-- Modal paraugs -->
+
+<!--     
+    <div id="modal-9-div" class="neredzams"> 
+        <div id="modal-9">
+            <div class="gajiena-nr">
+                <div class="gajiena-nr-pec-kartas-malejie-div"></div>
+                <div class="gajiena-nr-pec-kartas"><p>9</p></div>
+                <div class="gajiena-nr-pec-kartas-malejie-div">
+                    <div id="aizvert-krusts" class="aivert-krusts" onclick="aizvert_krusts_9()">
+                        <div class="aivert-krusts-labais"></div>
+                        <div class="aivert-krusts-kreisai"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="stasts">
+
+            </p>
+            <div class="uzdevuma-veids">Uzdevums</div>
+            <div class="zala-linija"></div>
+            <p class="uzdevums">
+                
+            </p>
+            <div class="atstarpe-20px"></div>
+        </div>
+    </div>
+-->
+
+<!-- ------------- -->
+    <script src="../../src/ruka-puka.js"></script>
+</body>
+</html>

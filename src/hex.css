@@ -1,0 +1,26 @@
+.HEX{
+    color: #ffffff;
+    color: #9dc035;
+    color: #ffc035;
+    color: #e6a721;
+    color: #d7dacf;
+    color: #a8a89f;  /* Varžu balle */
+    color: #999992;  /* virsraksts */
+    color: #65665e;  /* teksts */
+
+    color: #30312d;  /*tekstam */
+}
+
+.RUĶA-PŪĶA-BLĒŅU-STĀSTI{
+    color: #ffffff;
+    color: #9dc035;
+    color: #789719;
+    color: #a374b6; 
+    color: #ffc035;
+    color: #d7dacf;
+    color: #999992;  /* teksts */
+    color: #65665e;  /* virsraksts */
+
+    box-shadow: 1px 1px 10px 1px #f5f5f0;
+    box-shadow: 1px 1px 10px 1px #dfdfda;
+}

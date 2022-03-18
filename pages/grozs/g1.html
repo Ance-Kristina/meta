@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="grozs.css" />  <!-- CSS -->
+    <title>Varžu balle</title>
+    <meta name="description" content="Izklaižu programmas bērnu ballītēm">
+    <link rel="icon" href="../../img/Favicon.png">  <!-- Ikona -->
+</head>
+<body>
+<!-- GALVENE -->
+    <div class="galvene">
+        <div id="logo"><a href="../../index.html">Varžu balle</a></div>
+        <div class="navigacijas-div">
+            <nav class="navigacija">
+                <ul>
+                    <li><a href="../../pages/izklaide.html">Izklaide</a></li>
+                    <li><a href="../../pages/veikals.html">Veikals</a></li>
+                    <li><a href="../../pages/kontakti.html">Kontakti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+<!-- GALVENES beigas -->
+    <div id="saturs">
+        <p id="virsraksts">Pasūtījumu grozs</p>
+        <form id="pasutijuma-forma" class="pasutijuma-forma" 
+            action="https://formsubmit.co/91ce5c9f75f6f029fcf414d25343c89a" method="POST" onsubmit="rekins()">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://varzuballe.lv/pages/grozs/g2.html">
+            <input type="hidden" name="_subject" value="VARŽU BALLE - PASŪTĪJUMS">
+            <input type="hidden" name="_template" value="box">
+            <div class="solis">1</div>
+            <p class="solis-text">Vēlos saņemt piekļuves kodu šim/šiem pakalpojumiem:</p>
+            <div id="pakalpojumu-saraksts-div">
+                <!-- VIKTORĪNAS -->
+                <div class="pakalpojums-div">
+                    <input type="checkbox" name="VIKTORĪNA_Dabas_draugs (EUR)" id="viktorina_1" value="3.50" class="checkbox">
+                    <label for="viktorina_1" class="checkbox_text">Viktorīna "Dabas draugs"</label><br>
+                    <div class="cena">3.50 EUR</div>
+                </div>
+                <div class="pakalpojums-div">
+                    <input type="checkbox" name="VIKTORĪNA_Eiropa_pie_manām_kājām (EUR)" id="viktorina_2" value="3.50" class="checkbox">
+                    <label for="viktorina_2" class="checkbox_text">Viktorīna "Eiropa pie manām kājām"</label><br>
+                    <div class="cena">3.50 EUR</div>
+                </div>
+            </div>
+            <div class="solis">2</div>
+            <p class="solis-text">* Obligāti aizpildāmie laukumi</p>
+            <input type="text" id="varda_lauks" class="lauks1" name="Vārds_uzvārds" placeholder="Vārds, uzvārds *" maxlength="50" required>
+            <input type="email" id="epasta_lauks" class="lauks1" name="E-pasts" placeholder="E-pasts *" maxlength="50" required>
+            <input type="tel" id="telefons" class="lauks1" name="Telefons" placeholder="Telefona numurs *" maxlength="20" required>
+            <input type="text" id="info" class="lauks2" name="Info" placeholder="Papildus info" maxlength="300">
+            <div class="solis">3</div>
+            <p class="solis-text">Rēķina apmaksa</p>
+            <p class="checkbox_text">Uz Jūsu norādīto e-pastu tiks nosūtīts automātiski ģenerēts rēķins.</p>
+            <p class="checkbox_text"><b>OBLIGĀTI!</b> Maksājuma mērķī norādiet rēķina nummuru un e-pastu.</p>
+            <p class="checkbox_text">Pēc maksājuma apstrādes saņemsiet sms un e-pastu ar izvēlēto pieejas kodu/-iem. 
+                Apstrādi veicam 24h laikā pēc ienākošā darījuma mūsu bankas kontā.</p>
+            <div class="pakalpojums-div">
+                <input type="checkbox" name="Summa, EUR" id="tiesibas" class="checkbox" required>
+                <label for="tiesibas" class="checkbox_text">Apliecinu, ka esmu vismas 18 gadus vecs/-a. 
+                    Vai arī pasūtījumu veicu vecāku/pilnvarotas personas pavadībā.</label><br>
+            </div>        
+            <button type="submit" id="poga-pasutit">PASŪTĪT</button>
+       </form>
+        
+
+    </div>
+
+<!-- KĀJENE -->
+    <footer class="kajene">
+            <a href="https://www.instagram.com/varzuballe/" target="_blank">
+                <!-- INSTAGRAM IKONA -->
+                <div id="instagram-ikona">
+                    <div id="insta-tuks"></div>
+                    <div id="insta-aplis"></div>
+                    <div id="insta-mini-aplis-div">
+                        <div id="insta-mini-aplis"></div>
+                    </div>
+                </div>
+            </a>
+            <p>@varzuballe</p>
+    </footer>
+
+
+    <script src="grozs.js"></script>  <!-- Javascript -->
+</body>
+</html>
