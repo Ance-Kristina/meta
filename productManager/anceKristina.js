@@ -59,7 +59,7 @@ const contactText = [
 ]
 const resumeText = [
     'EKA University of Applied Sciences "Culture Management" (2007-2013)',
-    '2013 - 2022 On the board of the sports club DUNDAGA. Event management for classic volleyball, beach volleyball and hockey tournaments.<br><br>2017 - 2019 Head of the Sports Committee in Dundaga municipality. Work with documentation, financial regulations and event management<br><br>2016 - 2022 Owner of CNC router workshop. Where gained good experience in client work, product design and working with:<br>Mach3 - CNC control software,<br>Aspire - software solution for creating and cutting parts on a CNC router,<br>GIMP - image editor.<br>(A EU funded project was developed to create the workshop.)',
+    '2013 - 2022 On the board of the sports club DUNDAGA. Event management for classic volleyball, beach volleyball and hockey tournaments.<br><br>2017 - 2019 Head of the Sports Committee in Dundaga municipality. Work with documentation, financial regulations and event management.<br><br>2016 - 2022 Owner of CNC router workshop. Where gained good experience in client work, product design and working with:<br>Mach3 - CNC control software,<br>Aspire - software solution for creating and cutting parts on a CNC router,<br>GIMP - image editor.<br>(A EU funded project was developed to create the workshop.)',
     'HTML, CSS, Javascript, product design, creativity, leadership, work ethic, teamwork.',
     'I enjoy sport activities such as volleyball, fitness, forest hiking and of course coding. I like to challenge myself and grow through learning and practising experiences.',
 ]
